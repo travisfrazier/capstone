@@ -195,6 +195,10 @@ footer {
     padding-top: 1rem;
 }
 
+.dt {
+    display: none;
+}
+
 /* Media Queries ---------- */
 
 @media only screen and (min-width: 767px) {
@@ -472,5 +476,9 @@ footer {
     .footer {
         display: flex;
         justify-content: space-between;
+    }
+
+    .dt {
+        display: inline-block;
     }
 }
