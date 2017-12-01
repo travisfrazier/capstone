@@ -479,6 +479,6 @@ footer {
     }
 
     .dt {
-        display: inline-block;
+        display: block;
     }
 }
