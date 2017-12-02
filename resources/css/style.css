@@ -1,6 +1,6 @@
 
 
-/* Main Styles ----- */
+/* Main & General Styles ----- */
 
 html {
     font-size: 16px;
@@ -19,6 +19,17 @@ h3 {
 
 h1 {
     font-size: 2.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: #blue;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: lime;
 }
 
 
@@ -215,12 +226,17 @@ footer {
         display: none;
     }
 
+    .nav {
+        background-color: #00917F;
+    }
+
     .desktop-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 64px;
-        background-color: #00917F;
+        max-width: 960px;
+        margin: 0 auto;
     }
 
     .desktop-nav img {
@@ -294,10 +310,6 @@ footer {
         max-width: 100%;
     }
 
-    .desktop-caption p, span {
-        margin-left: 2rem;
-    }
-
     .desktop-one figcaption {
         max-width: 80%;
     }
@@ -331,6 +343,7 @@ footer {
 
     .desktop-two figcaption {
         margin: 0;
+        padding-bottom: 1rem;
     }
     .desktop-two p {
         font-size: 0.80rem;
@@ -338,11 +351,6 @@ footer {
     .desktop-two h3 {
         margin-left: 0;
     }
-
-    .desktop-caption h3 {
-        margin-top: 0;
-    }
-
 
     .desktop-two {
         border-left: #bebcbc solid 0.5px;
