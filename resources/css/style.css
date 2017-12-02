@@ -32,6 +32,12 @@ a:hover {
     color: lime;
 }
 
+.grow:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
 
 /* Header Styles ----- */
 
@@ -284,6 +290,7 @@ footer {
 
     .start span {
         background-color: #DE4300;
+        transition: 
     }
 
     #button {
