@@ -93,9 +93,7 @@ h1 {
 }
 
 .grow:hover {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* Main Section Styles ----- */
@@ -222,6 +220,11 @@ footer {
 
     .wrapper {
         max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .wrapper-two {
+        max-width: 1024px;
         margin: 0 auto;
     }
 
@@ -376,10 +379,11 @@ footer {
     }
 
     .desktop-class-one figure {
-        max-width: 20%;
+        max-width: 30%;
         background-color: #fcfcfc;
         margin-bottom: 32px;
-        margin-left: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .desktop-class-one img {
