@@ -28,7 +28,7 @@ sr.reveal('.foo', {
 });
 
 
-// Navbar Hide
+// Navbar Hide - desktop
 
 $(document).ready(function() {
     var banner_height = $(".nav").height();
@@ -46,4 +46,7 @@ $(document).ready(function() {
     });
   
   });
+
+// Navbar Hide - Mobile 
+
 
