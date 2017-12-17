@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
+    margin: 0;
 }
 
 h3 {
@@ -23,6 +24,19 @@ h1 {
 
 
 /* Header Styles ----- */
+
+#menu {
+    position:fixed;
+	top:0px;
+	width:100%; 
+	z-index:9999;
+	display: none;
+}
+
+#sign-in {
+    background-color: #ffff;
+    padding: 0.5rem;
+}
 
 .mobile-nav {
     background-color: #00917F;
@@ -93,7 +107,7 @@ h1 {
 }
 
 .grow:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* Main Section Styles ----- */
@@ -164,9 +178,12 @@ a {
 }
 
 a:hover {
-    color: lime;
+    color: #DE4300;
 }
 
+a {
+    color: black;
+}
 /* Thesis section ----- */
 
 .thesis-desktop {
@@ -214,6 +231,21 @@ footer {
     display: none;
 }
 
+/* Image Styles ---------- */
+
+.image-container img {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+  }
+  
+  .image-container img:hover {
+    opacity: 0.7;
+  }
+  
+  .image-container, img {
+    overflow: hidden;
+  }
+
 /* Media Queries ---------- */
 
 @media only screen and (min-width: 767px) {
@@ -228,6 +260,10 @@ footer {
         margin: 0 auto;
     }
 
+    body {
+        padding-top: 64px;
+    }
+
     /* Desktop Navigation */
 
 
@@ -237,6 +273,11 @@ footer {
 
     .nav {
         background-color: #00917F;
+        overflow: hidden;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */  
+        z-index: 9999;      
     }
 
     .desktop-nav {

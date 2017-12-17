@@ -7,6 +7,7 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 <body>
 
@@ -26,23 +27,23 @@
             <span><strong>COLMAR</strong>ACADEMY</span>
             <div class="menu">
               <ul class="main-nav">
-                <li>On campus</li>
-                <li>Online</li>
-                <li>Our Companies</li>
-                <li>Sign in</li>
+                <li><a href="#">ON CAMPUS</a></li>
+                <li><a href="#">ONLINE</a></li>
+                <li><a href="#">OUR COMPANIES</a></li>
+                <li id="sign-in"><a href="#">SIGN IN</a></li>
               </ul>
         </nav>
         </div>
         <div class="desktop-banner">
             <div class="wrapper">
                 <div class="top-banner">
-                <figure class="banner">
+                <figure class="banner image-container">
                     <img src="./resources/images/banner.jpg">
                 </figure>
                 <section class="start">
                     <div class="title">
                         <h1>Learn something <br>new everyday</h1>
-                        <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</p>
+                        <p>Reach your full potential, <br>become an industry leader.</p>
                     </div>
                     <span class="grow">Start here</span>
                 </section>
@@ -54,7 +55,7 @@
     <!-- Main Section -->
     <main class="main wrapper">
         <div class="desktop-one">
-        <figure class="desktop-information">
+        <figure class="desktop-information image-container">
             <img src="./resources/images/information-main.jpg">
             <figcaption>
                 <h2>It doesn't hurt to keep practicing</h2>
@@ -67,7 +68,7 @@
         </div>
 
         <div class="desktop-two">
-        <figure>
+        <figure class="image-container foo">
             <picture>
                 <source media="(min-width: 800px)" srcset="./resources/images/information-orientation.jpg">
                 <source media="(min-width: 320px)" srcset="./resources/images/information-orientation-mobile.jpg">
@@ -85,7 +86,7 @@
             </figcaption>
         </figure>
 
-        <figure>
+        <figure class="image-container foo">
             <picture>
                 <source media="(min-width: 800px)" srcset="./resources/images/information-campus.jpg">
                 <source media="(min-width: 320px)" srcset="./resources/images/information-campus-mobile.jpg">
@@ -103,10 +104,10 @@
             </figcaption>
         </figure>
 
-        <figure>
-            <picture>
-                <source media="(min-width: 800px)" srcset="./resources/images/information-guest-lecture.jpg">
-                <source media="(min-width: 320px)" srcset="./resources/images/information-guest-lecture-mobile.jpg">
+        <figure class="image-container foo">
+            <picture class="image-container">
+                <source class="image-container" media="(min-width: 800px)" srcset="./resources/images/information-guest-lecture.jpg">
+                <source class="image-container" media="(min-width: 320px)" srcset="./resources/images/information-guest-lecture-mobile.jpg">
                 <img src="information-guest-lecture.jpg" alt="professor" style="width:auto;">
             </picture>
             <figcaption class="mobile-caption">
@@ -128,12 +129,12 @@
     <section class="classes">
         <h1>Start learning</h1>
         <div class="class-list">
-            <span>Software engineering</span>
-            <span>Computer art</span>
-            <span>Design</span>
-            <span>Data</span>
-            <span>Business</span>
-            <span>Marketing</span>
+            <span class="foo-1">Software engineering</span>
+            <span class="foo-2">Computer art</span>
+            <span class="foo-3">Design</span>
+            <span class="foo-4">Data</span>
+            <span class="foo-5">Business</span>
+            <span class="foo-6">Marketing</span>
         </div>
     </section>
 
@@ -142,7 +143,7 @@
     <div class="wrapper-two">
         <h1>Start Learning</h1>
         <div class="desktop-class-one">
-            <figure>
+            <figure class="image-container foo foo-1">
                 <img src="./resources/images/course-software.jpg">
                 <figcaption>
                     <h3>Software engineering</h3>
@@ -151,7 +152,7 @@
                 </figcaption>
             </figure>
 
-            <figure>
+            <figure class="image-container foo foo-2">
                 <img src="./resources/images/course-computer-art.jpg">
                 <figcaption>
                     <h3>Computer art</h3>
@@ -160,7 +161,7 @@
                 </figcaption>
             </figure>
 
-            <figure>
+            <figure class="image-container foo-3">
                 <img src="./resources/images/course-design.jpg">
                 <figcaption>
                     <h3>Design</h3>
@@ -171,7 +172,7 @@
         </div>
 
         <div class="desktop-class-one">
-            <figure>
+            <figure class="image-container foo-4">
                 <img src="./resources/images/course-data.jpg">
                 <figcaption>
                     <h3>Data</h3>
@@ -180,7 +181,7 @@
                 </figcaption>
             </figure>
 
-            <figure>
+            <figure class="image-container foo-5">
                 <img src="./resources/images/course-business.jpg">
                 <figcaption>
                     <h3>Business</h3>
@@ -189,7 +190,7 @@
                 </figcaption>
             </figure>
 
-            <figure>
+            <figure class="image-container foo-6">
                 <img src="./resources/images/course-marketing.jpg">
                 <figcaption>
                     <h3>Marketing</h3>
@@ -228,7 +229,7 @@
         </figure>
         </div>
         <div class="thesis-small">
-            <figure>
+            <figure class="image-container">
                 <picture>
                     <img src="./resources/images/thesis-fisma.jpg" alt="cell phone" style="width:auto;">
                 </picture>
@@ -237,7 +238,7 @@
                     <p>Designer showcase <br>of new prototype product</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="image-container">
                 <picture>
                     <img src="./resources/images/thesis-now-and-then.jpg" alt="new york" style="width:auto;">
                 </picture>
@@ -259,6 +260,10 @@
         </div>
     </div>
     </footer>
+
+<!-- JavaScripts -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="./resources/custom.js"></script>
 
 </body>
 </html>
