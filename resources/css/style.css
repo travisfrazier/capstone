@@ -16,7 +16,7 @@ body {
 }
 
 h3 {
-    color: #91bed4;
+    color: #6acfba;
 }
 
 h1 {
@@ -88,7 +88,7 @@ h1 {
 }
 
 .start span {
-    background-color: #f26101;
+    background-color: #ff3600;
     color: white;
     width: 90%;
     padding-top: 1rem;
@@ -170,7 +170,7 @@ main figure h3, p {
 
 .class-list span {
     display: block;
-    background-color: #91bed4;
+    background-color: #adaaaaa6;
     margin: 1rem auto 1rem auto;
     max-width: 90%;
     text-align: left;
@@ -188,11 +188,15 @@ a {
 }
 
 a:hover {
-    color: #69ff1d;
+    color: #585858;
 }
 
 a {
-    color: black;
+    color: #000000;
+}
+
+.read-more a:hover {
+    color: #00ff69 !important;
 }
 /* Thesis section ----- */
 
@@ -232,7 +236,7 @@ footer span {
 footer {
     margin-top: 2rem;;
     text-align: left;
-    background-color: #0071bc;
+    background-color: #0087cf;
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
@@ -282,7 +286,7 @@ footer {
     }
 
     .nav {
-        background-color: #0071bc;
+        background-color: #0087cf;
         overflow: hidden;
         position: fixed; /* Set the navbar to fixed position */
         top: 0; /* Position the navbar at the top of the page */
@@ -323,7 +327,7 @@ footer {
     /* Desktop Banner */
 
     .desktop-banner {
-        background-color: #eeebeba6;
+        background-color: #e2dfdfc4;
     }
 
     .top-banner {
@@ -345,7 +349,7 @@ footer {
 
 
     .start span {
-        background-color: #f26101;
+        background-color: #ff3600;
         transition: 
     }
 
@@ -539,7 +543,7 @@ footer {
     /* Footer */
 
     footer {
-        background-color: #0071bc;
+        background-color: #0087cf;
         padding-bottom: 75px;
         padding-top: 25px;
         margin-top: 0;
