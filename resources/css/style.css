@@ -16,7 +16,7 @@ body {
 }
 
 h3 {
-    color: #00DEC1;
+    color: #91bed4;
 }
 
 h1 {
@@ -43,15 +43,16 @@ h1 {
 }
 
 #sign-in {
-    background-color: #ffff;
+    background-color: #ffffff;
     padding: 0.5rem;
 }
 
 .mobile-nav {
-    background-color: #00917F;
+    background-color: #0071bc;
     height: 64px;
     margin: 0 auto;
     padding-top: 5px;
+    box-shadow: 0 10px 5px #000000;
 }
 
 .desktop-nav {
@@ -87,7 +88,7 @@ h1 {
 }
 
 .start span {
-    background-color: #DE4300;
+    background-color: #f26101;
     color: white;
     width: 90%;
     padding-top: 1rem;
@@ -169,7 +170,7 @@ main figure h3, p {
 
 .class-list span {
     display: block;
-    background-color: #a7a4a4;
+    background-color: #91bed4;
     margin: 1rem auto 1rem auto;
     max-width: 90%;
     text-align: left;
@@ -187,7 +188,7 @@ a {
 }
 
 a:hover {
-    color: #DE4300;
+    color: #69ff1d;
 }
 
 a {
@@ -231,7 +232,7 @@ footer span {
 footer {
     margin-top: 2rem;;
     text-align: left;
-    background-color: #00917F;
+    background-color: #0071bc;
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
@@ -281,12 +282,13 @@ footer {
     }
 
     .nav {
-        background-color: #00917F;
+        background-color: #0071bc;
         overflow: hidden;
         position: fixed; /* Set the navbar to fixed position */
         top: 0; /* Position the navbar at the top of the page */
         width: 100%; /* Full width */  
-        z-index: 9999;      
+        z-index: 9999;   
+        box-shadow: 0 1px 1px #888888;   
     }
 
     .desktop-nav {
@@ -337,12 +339,13 @@ footer {
         margin-left: 0;
         margin-top: auto;
         margin-bottom: auto;
-        background-color: #fcfcfc;
+        background-color: #ffffff;
         padding: 10px;
     }
 
+
     .start span {
-        background-color: #DE4300;
+        background-color: #f26101;
         transition: 
     }
 
@@ -430,7 +433,7 @@ footer {
 
     .desktop-class-one figure {
         max-width: 30%;
-        background-color: #fcfcfc;
+        background-color: #ffffff;
         margin-bottom: 32px;
         margin-left: 8px;
         margin-right: 8px;
@@ -536,7 +539,7 @@ footer {
     /* Footer */
 
     footer {
-        background-color: #00917F;
+        background-color: #0071bc;
         padding-bottom: 75px;
         padding-top: 25px;
         margin-top: 0;
